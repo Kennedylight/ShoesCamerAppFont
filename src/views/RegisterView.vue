@@ -5,12 +5,12 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <div class="w-14 h-14 bg-red-400 rounded-full absolute left-3 top-3"></div>
-    <div class="w-full h-screen flex relative bg-gradient-to-tr from-white to-blue-50 ">
+    <div class="w-full h-auto md:h-screen flex relative bg-gradient-to-tr from-white to-blue-100 ">
        
           <!-- Côté droit (formulaire) -->
         <div class="lg:w-1/2 w-full overflow-y-auto scrollbar-hide flex items-center justify-center p-6">
-            <div class="w-full max-w-md space-y-4 animate-slide-in-right">
-                <h1 class="text-2xl font-bold text-gray-800 text-center">Creation de votre compte</h1>
+            <div class="w-full max-w-md  z-0 relative space-y-4 animate-slide-in-right">
+                <h1 class="md:text-2xl text-xl  font-bold text-gray-800 text-center">Creation de votre compte</h1>
 
                 <form class="space-y-4 ">
                     <div class="relative z-0 w-full mb-5 group">
