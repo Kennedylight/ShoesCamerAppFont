@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50 space-y-4">
     <!-- HEADER -->
     <header class="bg-white fixed shadow-sm h-16  w-full animate-fade-in-down">
-      <div class="lg:max-w-[95%] space-y-2 lg:space-y-0  w-full lg:mx-auto py-3 flex flex-wrap items-center justify-between ">
+      <div class="lg:max-w-[95%] space-y-2 lg:space-y-0  w-full lg:mx-auto py-3 lg:py-0 flex flex-wrap items-center justify-between ">
         <!-- Logo + Recherche -->
         <div class="flex items-center px-2  h-full flex-wrap gap-3 w-full lg:justify-between  lg:w-[70%]">
           <div class=" h-full space-x-5  hidden lg:flex  justify-center">
@@ -28,7 +28,7 @@
 
         </div>
         <!-- Icônes -->
-        <div class="flex items-center bg-white py-2 border-b-2 lg:border-none border-gray-300 px-2  lg:space-x-3 space-x-2 text-xl w-full lg:w-auto justify-end">
+        <div class="flex items-center bg-white lg:bg-transparent py-2 border-b-2 lg:border-none border-gray-300 px-2  lg:space-x-3 space-x-2 text-xl w-full lg:w-auto justify-end">
           <div class="flex gap-3">
             <div class="cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -61,7 +61,7 @@
             </div>
           </div>
          
-          <div class="w-10 h-10 rounded-full bg-red-400">
+          <div class="w-10 h-10 rounded-full">
             <img src="/img/ayanokoji.jpg" class="w-full h-full object-cover rounded-full" />
           </div>
         </div>
