@@ -8,11 +8,11 @@ import { RouterLink } from 'vue-router';
     <div class="w-full h-screen flex relative bg-gradient-to-tr from-white to-blue-50 ">
        
           <!-- Côté droit (formulaire) -->
-        <div class="lg:w-1/2 w-full flex items-center justify-center p-6">
+        <div class="lg:w-1/2 w-full overflow-y-auto scrollbar-hide flex items-center justify-center p-6">
             <div class="w-full max-w-md space-y-4 animate-slide-in-right">
                 <h1 class="text-2xl font-bold text-gray-800 text-center">Creation de votre compte</h1>
 
-                <form class="space-y-4">
+                <form class="space-y-4 ">
                     <div class="relative z-0 w-full mb-5 group">
                         <input type="email" name="floating_email" id="floating_email"
                             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -108,9 +108,9 @@ import { RouterLink } from 'vue-router';
                 </div>
 
                 <p class="text-center text-sm text-gray-600">
-                    Vous n'avez pas de compte ?
-                    <router-link to="/register" class="text-blue-600 font-medium hover:underline">Créer un
-                        compte</router-link>
+                    Vous avez un compte ?
+                    <router-link to="/login" class="text-blue-600 font-medium hover:underline">Connectez Vous
+                        </router-link>
                 </p>
             </div>
         </div>
@@ -130,3 +130,16 @@ import { RouterLink } from 'vue-router';
 
     </div>
 </template>
+<style>
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+</style>

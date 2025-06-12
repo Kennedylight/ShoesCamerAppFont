@@ -1,8 +1,8 @@
 <template>
-    <div class="w-full h-screen flex relative bg-gradient-to-tr from-white to-blue-50">
+    <div class="w-full h-screen flex relative bg-gradient-to-tr from-white to-blue-100">
 
         <!-- Animation décorative -->
-        <div class="absolute top-4 left-4 w-16 h-16 bg-pink-500 rounded-full animate-ping opacity-20"></div>
+        <div class="absolute top-4 left-4 w-16 h-16 bg-pink-500 "></div>
 
         <!-- Côté gauche (image ou dégradé avec visuel e-commerce) -->
         <div
