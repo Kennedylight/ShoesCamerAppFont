@@ -4,10 +4,16 @@ import Login from "../views/LoginView.vue"
 import Register from "../views/RegisterView.vue"
 import Test from "../views/TestComponent.vue"
 import Acceuil from '../views/PageAccueilApresConnexion.vue'
+import Panier from "../views/PannierComponent.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/panier',
+      name: 'Panier',
+      component: Panier,
+    },
     {
       path: '/',
       name: 'About',

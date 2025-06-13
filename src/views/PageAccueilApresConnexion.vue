@@ -41,7 +41,7 @@
               </svg>
 
             </div>
-            <div class="cursor-pointer">
+            <router-link to="/panier" class="cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                 class="w-5 h-5 text-blue-400">
                 <path fill-rule="evenodd"
@@ -49,7 +49,7 @@
                   clip-rule="evenodd" />
               </svg>
 
-            </div>
+            </router-link>
             <div class="cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                 class="w-5 h-5 text-blue-400">
@@ -170,9 +170,7 @@
   </div>
 </template>
 
-<script setup>
-// Tu peux connecter ici ton store, API ou autres plus tard
-</script>
+
 
 <style scoped>
 @keyframes fade-in-down {

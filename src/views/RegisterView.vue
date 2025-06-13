@@ -8,11 +8,11 @@ import { RouterLink } from 'vue-router';
     <div class="w-full h-auto md:h-screen flex relative bg-gradient-to-tr from-white to-blue-100 ">
        
           <!-- Côté droit (formulaire) -->
-        <div class="lg:w-1/2 w-full overflow-y-auto scrollbar-hide flex items-center justify-center p-6">
+        <div class="lg:w-1/2 w-full  flex items-center justify-center p-6">
             <div class="w-full max-w-md  z-0 relative space-y-4 animate-slide-in-right">
                 <h1 class="md:text-2xl text-xl  font-bold text-gray-800 text-center">Creation de votre compte</h1>
 
-                <form class="space-y-4 ">
+                <form class="space-y-4 overflow-y-auto scrollbar-hide">
                     <div class="relative z-0 w-full mb-5 group">
                         <input type="email" name="floating_email" id="floating_email"
                             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
